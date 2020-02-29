@@ -1,6 +1,6 @@
 ## Process
-- Create MovieList component
-- get our data somehow (in App.js)
+- Create MovieList component*
+- get our data somehow (in App.js)*
 - Render MovieList from App.js
 - Pass the list of movies to MovieList
 - MovieList will render each movie (map?)
