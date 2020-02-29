@@ -1,5 +1,6 @@
 .App {
   text-align: center;
+  background-color: black;
 }
 
 .App-logo {
@@ -35,4 +36,18 @@
   to {
     transform: rotate(360deg);
   }
+}
+
+
+h3 {
+  color: wheat;
+  text-align: center;
+}
+
+p {
+  text-align: justify;
+  color: white;
+}
+#root {
+  background-color: black;
 }
