@@ -39,15 +39,12 @@
 }
 
 
-h3 {
-  color: wheat;
-  text-align: center;
-}
+
 
 p {
   text-align: justify;
   color: white;
 }
 #root {
-  background-color: black;
+  background-color:#292b2c;
 }
