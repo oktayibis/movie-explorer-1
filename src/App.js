@@ -10,9 +10,11 @@ class App extends React.Component {
     super()
     this.state = {
       movies: [],
-      query: ""
+      query: "",
+      cast : []
     }
   }
+
   constructURL = ()=>{
     let URL= ""
     const BASE_URL = "https://api.themoviedb.org/3";
@@ -38,6 +40,7 @@ class App extends React.Component {
         movies: json.results
       }, () => console.log(this.state))
     })
+
    }
 
    handleChange= (e)=>{
