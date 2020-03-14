@@ -15,7 +15,7 @@ const MovieDetail = props => {
         <div className="card-body">
         <button type="button" className="btn btn-danger btn-sm float-right">Vote Average: {props.movie.vote_average}</button>
 
-          <h5 className="card-title">{props.movie.title}</h5>
+          <h5 className="card-title ">{props.movie.title}</h5>
 
           <p className="card-text">
            {props.movie.overview}
