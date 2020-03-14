@@ -1,5 +1,5 @@
 import React, {Component} from "react";
-import { makeStyles, responsiveFontSizes } from "@material-ui/core/styles";
+import { makeStyles } from "@material-ui/core/styles";
 import List from "@material-ui/core/List";
 import ListItem from "@material-ui/core/ListItem";
 import Divider from "@material-ui/core/Divider";
@@ -44,7 +44,7 @@ class Actor extends Component {
       <div>
         {this.state.cast.map(actor => {
           return (
-            <List >
+            <List key={actor.id}>
               <ListItem alignItems="flex-start">
                 <ListItemAvatar>
                   <Avatar alt="Remy Sharp" src={baseURL + actor.profile_path} />

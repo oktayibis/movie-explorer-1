@@ -26,7 +26,7 @@ class App extends React.Component {
     else{
       URL += `/search/movie?api_key=${API_KEY}&query=${this.state.query}&include_adult=false`
     }
-    console.log(URL)
+    //console.log(URL)
     return URL
   }
 
@@ -38,7 +38,7 @@ class App extends React.Component {
     .then(json=> {
       this.setState({
         movies: json.results
-      }, () => console.log(this.state))
+      })
     })
 
    }
@@ -55,7 +55,7 @@ class App extends React.Component {
       .then(json=> {
         this.setState({
           movies: json.results
-        }, () => console.log(this.state))
+        })
       })
     }
    }
