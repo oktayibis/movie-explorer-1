@@ -13,10 +13,11 @@ const baseURL = "http://image.tmdb.org/t/p/w1280/";
 
 const useStyles = makeStyles({
   root: {
-    maxWidth: 345
+    maxWidth: 345,
+    display: 'inline'
   },
   media: {
-    height: 140
+    height: 500
   }
 });
 
